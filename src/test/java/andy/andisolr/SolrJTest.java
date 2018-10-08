@@ -42,7 +42,7 @@ public class SolrJTest {
         Collection<SolrInputDocument> documents = new ArrayList();
         List<Integer> ids = new ArrayList<>();
 
-        for (int count = 0; count < 99999; count++) {
+        for (int count = 0; count < 999; count++) {
             SolrInputDocument document = new SolrInputDocument();
             int id = count;
 

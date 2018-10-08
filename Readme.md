@@ -81,13 +81,26 @@
     * wt - (writer type)指定输出格式，可以有 xml, json, php, phps；
     * hl 是否高亮，设置高亮Field，设置格式前缀和后缀。
         * SolrJ 例子 :
-
 ```
     query.setHighlight(true);
     query.addHighlightField("title");
     query.setHighlightSimplePre("<span color='red'>");
     query.setHighlightSimplePost("</span>");
 ```
+* Solr 常用命令
+
+```
+solr start –p 端口号 // 单机版启动solr服务
+
+solr restart –p 端口号 // 重启solr服务
+
+solr stop –p 端口号 // 关闭solr服务
+
+solr create –c name // 创建一个core实例(core概念后面介绍)
+```
+---------------------
+
+本文来自 眼望天空 的CSDN 博客 ，全文地址请点击：https://blog.csdn.net/u010510107/article/details/81051795?utm_source=copy
 
 * 参考资料
     * [solr7.1.0学习笔记](https://blog.csdn.net/column/details/18689.html)
