@@ -96,7 +96,7 @@ solr restart –p 端口号 // 重启solr服务
 
 solr stop –p 端口号 // 关闭solr服务
 
-solr create –c name // 创建一个core实例(core概念后面介绍)
+solr create –c name // 创建一个core实例
 ```
 ---------------------
 
